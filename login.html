@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>UniTest</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="#">Login</a></h1>
+      <h2>heading</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="#">Universities</a></li>
+        <li><a href="#">Text Link</a></li>
+        <li><a href="#">Text Link</a></li>
+        <li class="last"><a href="#">Text Link</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<div> 
+    <form>
+        <input type="email" id="signup-email" required />
+        <label for="signup-email">Email Adress</label>
+        <input type="password" id="signup-password" required />
+        <label for="signup-password">Password</label>
+    </form>
+</div>
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left"><a href="#">Domain Name</a></p>
+  </footer>
+</div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCHrIE9KhUI2nYDXjLpOS8ONG8kSxmsyEM",
+    authDomain: "ics4u-semester-project.firebaseapp.com",
+    databaseURL: "https://ics4u-semester-project.firebaseio.com",
+    projectId: "ics4u-semester-project",
+    storageBucket: "ics4u-semester-project.appspot.com",
+    messagingSenderId: "845103821213",
+    appId: "1:845103821213:web:f14692143aa168f3ba3f74",
+    measurementId: "G-EYB0J3XNCD"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+</html>
